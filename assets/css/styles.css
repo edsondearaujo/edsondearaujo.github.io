@@ -1,14 +1,17 @@
+/* Estilos gerais */
 body {
+    background-color: #1e1e1e; /* Cor de fundo escura */
+    color: #e0e0e0; /* Cor de texto clara */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
+/* Cabeçalho */
 header {
-    background-color: #333;
+    background-color: #2d2d2d;
     color: white;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
 }
 
@@ -23,20 +26,90 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #e0e0e0;
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: #bb86fc; /* Cor roxa no hover para dar um efeito visual moderno */
+}
+
+/* Conteúdo principal */
 main {
     padding: 20px;
 }
 
+/* Seções */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #bb86fc; /* Cor de destaque roxa */
+}
+
+/* Links */
+a {
+    color: #bb86fc;
+}
+
+a:hover {
+    color: #03dac6; /* Um tom de ciano para hover */
+}
+
+/* Rodapé */
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
+    background-color: #2d2d2d;
     color: white;
-    position: absolute;
+    padding: 10px;
+    text-align: center;
+    position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Estilos de projeto */
+.project {
+    border: 1px solid #3e3e3e;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #2a2a2a;
+}
+
+.project h3 {
+    color: #bb86fc;
+}
+
+.project img {
+    max-width: 100%;
+    border: 1px solid #3e3e3e;
+}
+
+/* Formulário de contato */
+form {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border: 1px solid #3e3e3e;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333333;
+    color: #e0e0e0;
+    border: none;
+    border-bottom: 2px solid #bb86fc;
+}
+
+input[type="submit"] {
+    background-color: #bb86fc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #03dac6;
 }
