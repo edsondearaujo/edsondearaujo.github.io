@@ -28,8 +28,23 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a.active {
+    color: #03dac6;
+    font-weight: bold; /* Opcional para dar destaque extra */
+}
+
 nav ul li a:hover {
-    color: #0000EE;
+    color: #bb86fc;
+}
+
+/* Links globais (ex.: na página de contato) */
+a {
+    color: #1a73e8; /* Azul usado para links padrão */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 main {
@@ -70,6 +85,17 @@ footer {
     font-size: 1.5em;
 }
 
+/* Links de projetos (especificados em .project-info) */
+.project-info a {
+    color: #bb86fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-info a:hover {
+    color: #03dac6;
+}
+
 .btn {
     background-color: #bb86fc;
     color: white;
@@ -89,11 +115,12 @@ footer {
         margin-bottom: 20px;
     }
 
-    .navbar ul li {
+    nav ul li {
         display: block;
         margin: 10px 0;
     }
 }
+
 /* Estilo para telas grandes (desktops) */
 .project-content {
     display: flex;
@@ -118,16 +145,6 @@ footer {
 
 .project-info p {
     margin: 0 0 10px;
-}
-
-.project-info a {
-    color: #bb86fc;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.project-info a:hover {
-    color: #03dac6;
 }
 
 /* Responsividade para telas menores (tablets e smartphones) */
@@ -168,5 +185,3 @@ footer {
         padding: 8px 16px;
     }
 }
-
-
