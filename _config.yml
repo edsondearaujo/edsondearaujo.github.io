@@ -1,0 +1,15 @@
+title: "Edson's Portfolio"
+description: "Meu portfólio como Engenheiro de Dados"
+baseurl: "https://github.com/edsondearaujo/sales_automation"
+url: "https://edsondearaujo.github.io" # O URL do seu site
+theme: minima # Usando o tema minima do Jekyll como exemplo
+markdown: kramdown
+
+# Informações do autor
+author:
+  name: "Edson de Araújo"
+  email: "seuemail@example.com"
+
+# Configurações de navegação
+plugins:
+  - jekyll-seo-tag # Plugin para melhorar o SEO do site
