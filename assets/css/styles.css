@@ -94,7 +94,7 @@ footer {
         margin: 10px 0;
     }
 }
-
+/* Estilo para telas grandes (desktops) */
 .project-content {
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@ footer {
 }
 
 .project-content img {
-    width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    width: 150px; /* Tamanho da imagem para telas grandes */
     height: auto;
     margin-right: 20px;
     border-radius: 8px;
@@ -129,4 +129,44 @@ footer {
 .project-info a:hover {
     color: #03dac6;
 }
+
+/* Responsividade para telas menores (tablets e smartphones) */
+@media (max-width: 768px) {
+    .project-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .project-content img {
+        width: 100%; /* Imagem ocupa toda a largura disponível */
+        max-width: 300px; /* Define um tamanho máximo */
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .project-info {
+        text-align: left;
+        width: 100%; /* O texto também ocupa toda a largura disponível */
+    }
+}
+
+@media (max-width: 480px) {
+    .project-content img {
+        width: 100%; /* Imagem ocupa 100% da largura da tela em smartphones */
+        margin-bottom: 15px;
+    }
+
+    .project-info h3 {
+        font-size: 1.2em;
+    }
+
+    .project-info p {
+        font-size: 1em;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+}
+
 
