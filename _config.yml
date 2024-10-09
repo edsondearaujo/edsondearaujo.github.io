@@ -1,13 +1,13 @@
-title: "Edson's Portfolio"
+title: "Edson Soares"
 description: "Meu portfólio como Engenheiro de Dados"
-baseurl: "https://github.com/edsondearaujo/sales_automation"
+baseurl: ""
 url: "https://edsondearaujo.github.io" # O URL do seu site
 theme: minima # Usando o tema minima do Jekyll como exemplo
 markdown: kramdown
 
 # Informações do autor
 author:
-  name: "Edson de Araújo"
+  name: "Edson Soares"
   email: "edsondearaujo.ti@gmail.com"
 
 
