@@ -8,8 +8,13 @@ markdown: kramdown
 # Informações do autor
 author:
   name: "Edson de Araújo"
-  email: "seuemail@example.com"
+  email: "edsondearaujo.ti@gmail.com"
+
+
+markdown: kramdown
+permalink: pretty
 
 # Configurações de navegação
 plugins:
   - jekyll-seo-tag # Plugin para melhorar o SEO do site
+

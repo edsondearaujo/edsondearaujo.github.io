@@ -1,13 +1,11 @@
-/* Estilos gerais */
 body {
-    background-color: #1e1e1e; /* Cor de fundo escura */
-    color: #e0e0e0; /* Cor de texto clara */
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
     margin: 0;
     padding: 0;
 }
 
-/* Cabeçalho */
 header {
     background-color: #2d2d2d;
     color: white;
@@ -31,85 +29,68 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #bb86fc; /* Cor roxa no hover para dar um efeito visual moderno */
-}
-
-/* Conteúdo principal */
-main {
-    padding: 20px;
-}
-
-/* Seções */
-section {
-    margin-bottom: 40px;
-}
-
-h2 {
-    color: #bb86fc; /* Cor de destaque roxa */
-}
-
-/* Links */
-a {
     color: #bb86fc;
 }
 
-a:hover {
-    color: #03dac6; /* Um tom de ciano para hover */
+main {
+    padding: 40px;
 }
 
-/* Rodapé */
+h2, h3 {
+    margin-bottom: 20px;
+}
+
 footer {
     background-color: #2d2d2d;
     color: white;
     padding: 10px;
     text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
-/* Estilos de projeto */
-.project {
-    border: 1px solid #3e3e3e;
+.project-card {
+    background-color: #2d2d2d;
+    color: #ffffff;
     padding: 20px;
-    margin-bottom: 20px;
-    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
 }
 
-.project h3 {
-    color: #bb86fc;
+.project-card:hover {
+    transform: translateY(-5px);
 }
 
-.project img {
-    max-width: 100%;
-    border: 1px solid #3e3e3e;
-}
-
-/* Formulário de contato */
-form {
-    background-color: #2a2a2a;
-    padding: 20px;
-    border: 1px solid #3e3e3e;
-}
-
-input[type="text"], input[type="email"], textarea {
+.project-card img {
     width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    background-color: #333333;
-    color: #e0e0e0;
-    border: none;
-    border-bottom: 2px solid #bb86fc;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
-input[type="submit"] {
+.project-card h3 {
+    font-size: 1.5em;
+}
+
+.btn {
     background-color: #bb86fc;
     color: white;
-    border: none;
     padding: 10px 20px;
-    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-input[type="submit"]:hover {
+.btn:hover {
     background-color: #03dac6;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
