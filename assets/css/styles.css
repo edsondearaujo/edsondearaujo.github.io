@@ -94,3 +94,39 @@ footer {
         margin: 10px 0;
     }
 }
+
+.project-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project-content img {
+    width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.project-info {
+    flex-grow: 1;
+}
+
+.project-info h3 {
+    margin: 0 0 10px;
+}
+
+.project-info p {
+    margin: 0 0 10px;
+}
+
+.project-info a {
+    color: #bb86fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-info a:hover {
+    color: #03dac6;
+}
+
