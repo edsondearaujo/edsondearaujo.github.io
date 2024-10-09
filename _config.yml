@@ -1,20 +1,22 @@
 title: "Edson Soares"
 description: "Meu portfólio como Engenheiro de Dados"
-baseurl: ""
-url: "https://edsondearaujo.github.io" # O URL do seu site
-theme: minima # Usando o tema minima do Jekyll como exemplo
-markdown: kramdown
+baseurl: "" # Mantenha vazio para o domínio principal (https://edsondearaujo.github.io)
+url: "https://edsondearaujo.github.io" # URL do site
+
+# Tema utilizado
+theme: minima # Usando o tema minima do Jekyll
 
 # Informações do autor
 author:
   name: "Edson Soares"
   email: "edsondearaujo.ti@gmail.com"
 
-
+# Configurações do markdown
 markdown: kramdown
-permalink: pretty
+permalink: pretty # Usando permalinks amigáveis
 
-# Configurações de navegação
+# Plugins
 plugins:
-  - jekyll-seo-tag # Plugin para melhorar o SEO do site
+  - jekyll-seo-tag # Plugin para SEO
+
 
