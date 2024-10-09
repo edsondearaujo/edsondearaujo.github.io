@@ -1,0 +1,22 @@
+title: "Edson Soares"
+description: "Meu portfólio como Engenheiro de Dados"
+baseurl: "" # Mantenha vazio para o domínio principal (https://edsondearaujo.github.io)
+url: "https://edsondearaujo.github.io" # URL do site
+
+# Tema utilizado
+theme: minima # Usando o tema minima do Jekyll
+
+# Informações do autor
+author:
+  name: "Edson Soares"
+  email: "edsondearaujo.ti@gmail.com"
+
+# Configurações do markdown
+markdown: kramdown
+permalink: pretty # Usando permalinks amigáveis
+
+# Plugins
+plugins:
+  - jekyll-seo-tag # Plugin para SEO
+
+
