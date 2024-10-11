@@ -147,6 +147,22 @@ footer {
     margin: 0 0 10px;
 }
 
+
+.custom-btn {
+    background-color: #2d2d2d; /* Cor de fundo do card */
+    color: #aa70f1; /* Cor de fonte padrão */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #1e1e1e; /* Cor de fonte de "Análise de Correlação" no hover */
+    color: #09f1da; /* Cor de fundo do card no hover */ 
+}
+
+/*______________________________MEDIA QUERIES_____________________________________________________
 /* Responsividade para telas menores (tablets e smartphones) */
 @media (max-width: 768px) {
     .project-content {
