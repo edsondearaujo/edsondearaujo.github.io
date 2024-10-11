@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+    <title>Home - Edson Soares</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
       <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Edson Soares - Eng. de Dados" />
@@ -23,23 +23,27 @@
 </head>
 <body>
     <header>
-        <h1>{{ site.title }}</h1>
+        <h1>Edson Soares</h1>
         <nav>
             <ul>
-                <li><a href="{{ site.baseurl }}/" class="{% if page.url == "/" %}active{% endif %}">Página inicial</a></li>
-                <li><a href="{{ site.baseurl }}/about" class="{% if page.url == "/about/" %}active{% endif %}">Sobre mim</a></li>
-                <li><a href="{{ site.baseurl }}/projects" class="{% if page.url == "/projects/" %}active{% endif %}">Projetos</a></li>
-                <li><a href="{{ site.baseurl }}/contact" class="{% if page.url == "/contact/" %}active{% endif %}">Contato</a></li>
+                <li><a href="/" class="active">Página inicial</a></li>
+                <li><a href="/about" class="">Sobre mim</a></li>
+                <li><a href="/projects" class="">Projetos</a></li>
+                <li><a href="/contact" class="">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        {{ content }}
+        <h2>Bem-vindo ao meu portfólio!</h2>
+<p>Sou Edson Soares, com uma sólida experiência no desenvolvimento de software desde 2016, agora direcionando meu foco para Engenharia de Dados. Com um forte interesse por Inteligência Artificial e automação de processos de negócios, este portfólio apresenta meus projetos e as habilidades que venho aprimorando ao longo da minha carreira no setor de tecnologia.</p>
+
+<a class="btn" href="/projects">Portfólio</a>
+
     </main>
 
     <footer>
-        <p>&copy; {{ site.author.name }}</p>
+        <p>&copy; Edson Soares</p>
     </footer>
 </body>
 </html>
