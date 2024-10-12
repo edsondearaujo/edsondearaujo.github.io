@@ -14,7 +14,7 @@ Depois de abrir o notebook no Colab, siga os seguintes passos para rodar o códi
 Este notebook está organizado em várias etapas. Aqui está uma visão geral de cada uma:
 
 1. **Instalação das dependências**:
-   - A primeira célula instala todas as bibliotecas necessárias para rodar o notebook, como `pandas`, `matplotlib`, `pyarrow`, entre outras.
+   - A primeira célula instala todas as bibliotecas necessárias para rodar o notebook, como `pandas`, `matplotlib` `seaborn`, e `google.colab`.
    - Execute esta célula primeiro para garantir que todas as dependências estejam instaladas corretamente.
 
 2. **Imports**:
@@ -28,25 +28,6 @@ Este notebook está organizado em várias etapas. Aqui está uma visão geral de
 4. **Main**:
    - A célula final contém a função `main()`, que orquestra a execução de todo o fluxo de trabalho, desde o carregamento dos dados até a visualização dos gráficos.
    - Execute esta célula por último para ver os resultados completos.
-
-### Passo 3: Usando sua própria planilha
-Se você quiser testar o projeto com sua própria planilha, siga os seguintes passos:
-
-1. **Faça upload da planilha** no Google Colab:
-   - Use o seguinte código para fazer o upload da sua planilha diretamente no Colab:
-     ```python
-     from google.colab import files
-     uploaded = files.upload()
-     ```
-
-2. **Substitua o caminho do arquivo**:
-   - Altere o caminho do arquivo de dados no código para utilizar o arquivo que você carregou. Exemplo:
-     ```python
-     file_path = './seu_arquivo.xlsx'
-     ```
-
-3. **Formato da planilha**:
-   - Certifique-se de que sua planilha contenha colunas com dados que possam ser usados para análise de correlação (por exemplo, métricas de marketing como impressões de anúncios, custo por clique, etc.).
 
 ### Passo 4: Visualizando os gráficos
 Após rodar a função `main()` e processar os dados, o notebook irá gerar gráficos que ajudam a visualizar a correlação entre diferentes métricas da sua planilha.
