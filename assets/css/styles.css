@@ -39,7 +39,8 @@ nav ul li a:hover {
 
 /* Links globais (ex.: na página de contato) */
 a {
-    color: #1a73e8; /* Azul usado para links padrão */
+    /*color: #1a73e8; /* Azul usado para links padrão */
+    color: #bb86fc;
     text-decoration: none;
 }
 
@@ -87,7 +88,7 @@ footer {
 
 /* Links de projetos (especificados em .project-info) */
 .project-info a {
-    color: #bb86fc;
+    color: #c6aae7;
     text-decoration: none;
     font-weight: bold;
 }
@@ -149,17 +150,17 @@ footer {
 
 
 .custom-btn {
-    background-color: #2d2d2d; /* Cor de fundo do card */
-    color: #aa70f1; /* Cor de fonte padrão */
-    padding: 10px 20px;
+    background-color: white; /* Cor de fundo do card */
+    color: #1e1e1e; /* Cor de fonte padrão */
+    padding: 5px 10px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .custom-btn:hover {
     background-color: #1e1e1e; /* Cor de fonte de "Análise de Correlação" no hover */
-    color: #09f1da; /* Cor de fundo do card no hover */ 
+    color: white; /* Cor de fundo do card no hover */ 
 }
 
 /*______________________________MEDIA QUERIES_____________________________________________________
