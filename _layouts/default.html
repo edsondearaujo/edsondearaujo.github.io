@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
       <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Edson Soares - Eng. de Dados" />
-    <meta property="og:description" content="Portfólio de Edson Soares, onde mostro meus projetos e habilidades em Engenharia de Dados e IA." />
+    <meta property="og:title" content="Edson Soares - Dev. Sofware" />
+    <meta property="og:description" content="Portfólio de Edson Soares, onde mostro meus projetos e habilidades em Desenvolvimento de Software." />
     <meta property="og:image" content="https://edsondearaujo.github.io/assets/img/site_logo.jpg" />
     <meta property="og:url" content="https://edsondearaujo.github.io" />
     <meta property="og:type" content="website" />
@@ -23,7 +23,23 @@
 </head>
 <body>
     <header>
-        <h1>{{ site.title }}</h1>
+        <div style="display: flex; align-items: center;">
+            <img src="/assets/img/eu_hlg.jpg" alt="Edson Soares" style="border-radius: 50%; width: 80px; height: 80px; margin-right: 15px;">
+            <h2>{{ site.title }}</h2>
+        </div>
+        <div>
+            <p>
+                <a href="https://github.com/edsondearaujo/" target="_blank">
+                    <img src="/assets/img/github-mark-white.svg" alt="GitHub" style="width: 24px; height: 24px; margin-right: 13px;">
+                </a>
+                <a href="https://www.linkedin.com/in/edson-soares-b16b0815b/" target="_blank">
+                    <img src="/assets/img/li-in-bug.png" alt="GitHub" style="width: 24px; height: 24px; margin-right: 13px;">
+                </a>
+                <a href="mailto:edsondearaujo.ti@gmail.com" target="_blank">
+                    <img src="/assets/img/Gmail_icon_(2020).svg.png" alt="GitHub" style="width: 24px; height: 24px;">
+                </a>
+            </p>
+        </div>
         <nav>
             <ul>
                 <li><a href="{{ site.baseurl }}/" class="{% if page.url == "/" %}active{% endif %}">Página inicial</a></li>
